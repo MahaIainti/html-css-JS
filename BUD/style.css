@@ -1,0 +1,1424 @@
+html {
+	height: -webkit-fill-available;
+}
+body {
+	margin: 0px;
+	height: -webkit-fill-available;
+}
+
+a, span, h1 {
+	color: #fff;
+	font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+	font-weight: bold;
+}
+.BG {
+	height: -webkit-fill-available;
+	background-image: url(BUDboat1.jpg);
+	background-position: center center;
+	background-clip: border-box;
+	background-size: 100% 100%;
+}
+
+			.usAxx {
+				float: left;
+				width: 44%;
+				text-align: left;
+				font-size: 8px;
+				padding: 20px 100px 5px 13%;
+			}
+			.usData {
+				float: left;
+				width: 25%;
+			}
+			.usData_1 {
+				background: #E5E5E5;
+				opacity: 0.3;
+				height: 116px;
+			}
+			.usData_1_2 {
+				position: relative;
+				top: -5px;
+				height: 126px;
+				width: 25%;
+			}
+			.usData1 {
+				float: left;
+				position: relative;
+				width: 24%;
+				font-size: 1em;
+				text-align: center;
+				text-decoration: underline;
+				margin: 3% 0% 5% 0;
+				right: 25%;
+			}
+			.usData2 {
+				float: left;
+				position: relative;
+				top: -125px;
+				right: 24.3%;
+				width: 24%;
+			}
+			.usData_2 {
+				margin-right: 0%;
+			}
+			.consent {
+				float: left;
+				width: 10%;
+				height: 20px;
+				position: relative;
+				background: none;
+				border: 1px;
+				border-color: #fff;
+			}
+			.consent1 {
+				float: left;
+				width: 4%;
+				height: 20px;
+				position: relative;
+				background: none;
+				border: 1px;
+				border-color: #fff;
+			}
+			.consent1 input[type=checkbox], .consent input[type=checkbox] {
+				display:none;
+			}
+			.consentLabel {
+				float: left;
+				position: relative;      
+				width: 20px;             
+				height: 20px;            
+				border: 2px solid #ccc;
+			}
+			.consent input[type=checkbox]:checked + .consentLabel::before {
+				content: "";             
+				display: block;			 
+				position: absolute;     
+				top: 2px;
+				right: 2px;
+				bottom: 2px;
+				left: 2px;
+				background: #413548;  
+				border-radius: 2px;
+			}
+			.description {
+				float: left;
+				width: 37%;
+				height: 30px;
+				margin:0  3% 10px 0;
+				font-size: 9px;
+			}
+			.description2 {
+				width: 19%;
+				margin:0  0 10px 0;
+				padding-right: 2%;
+			}
+			.consentButt {
+				float: left;
+				width: 47%;
+				height: 30px;
+				margin:0  0 10px 0;
+				background: #413548;
+				color: #fff;
+				border: none;
+			}
+			
+			.data {
+				float: left;
+				width: 44%;
+				height: 30px;
+				margin:0  3% 10px 0;
+				border: none;
+				padding-left: 3%;
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+			}
+			.dataC {
+				float: left;
+				width: 47%;
+				height: 30px;
+				margin:0  3% 10px 0;
+				border: none;
+				 font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+			}
+			.blur {
+	height: -webkit-fill-available;
+	background-image: url(BUDboat1.jpg);
+	background-position: center center;
+	background-clip: border-box;
+	background-size: 100% 100%;
+	opacity: 0.8;
+				-webkit-filter: blur(10px);
+		     	-moz-filter: blur(10px);
+		      	 -o-filter: blur(10px);
+		      	-ms-filter: blur(10px);
+		          filter: blur(10px);
+		          background: red;
+			}
+			.main1{
+				display: none;
+				position: absolute;
+				width: 55%;
+				height: 450px;
+				margin: 12% 22% 0 22%;
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+				color: #002F63;
+				background: #ffffff;
+				box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+				z-index: 9999;
+			}
+			.main{
+				display: block;
+				position: absolute;
+				width: 55%;
+				height: 450px;
+				margin: 150px 22% 0 22%;
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+				color: #002F63;
+				background: #ffffff;
+				box-shadow: 0.4em 0.4em 5px rgba(122,122,122,0.5);
+				z-index: 9999;
+			}
+			.main1 span {
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+				color: #002F63;
+			}
+			.main span {
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+				color: #002F63;
+			}
+			.arrow_wrapper-left {
+	    		left: 0;
+			}
+			.arrow_wrapper-right {
+				right: 0;
+			}
+			.arrow_wrapper {
+			    position: absolute;
+			    top: 0;
+			    bottom: 0;
+			    width: 5%;
+			    cursor: pointer;
+			    transition: opacity ease-in-out 0.3s,height ease-in-out .3s;
+		    	z-index: 4;
+			}
+			.arrowAll {
+				transform: translateY(-50%);
+			    position: absolute;
+			    top: 50%;
+			    cursor: pointer;
+			    background: #002F63;
+			    width: 10px;
+			    height: 20px;
+			}
+			.arrow_body {
+			    width: 20px;
+			    height: 20px;
+			    transform: rotate(45deg);
+			}
+			.arrow-left {
+				left: 20px;
+			}
+			.arrow_body-left {
+				position: relative;
+				top: -5px;
+				right: 8px;
+				border-left: 10px solid #fff;
+			    border-bottom: 10px solid #fff;
+			}
+			.arrow-right {
+				right: 20px;
+			}
+			.arrow_body-right {
+				position: relative;
+				right: 12px;
+				top: -5px;
+				border-right: 10px solid #fff;
+			    border-top: 10px solid #fff;
+			}
+
+			.left, .day, .iun, .iul, .close{
+				float: left;
+			}
+			 .right {
+				float: right;
+			}
+			.left {
+				width: 5%;
+				height: 350px;
+			}
+			.right {
+				width: 5%;
+				height: 350px;
+			}
+			.iun {
+				font-size: 1.5em;
+				padding-left: 3px;
+			}
+			.iul {
+				width: 30%;
+				opacity: 0.5;
+				font-size: 1em;
+				padding: 7px 0 0px 5px;
+			}
+			.close1 {
+				float: left;
+				position: relative;
+				left: 15px;
+				padding: 5px;
+				text-transform:uppercase;
+				z-index: 5;
+			}
+
+			.close1 span{
+				float: right;
+			}
+			.close{
+			    position: relative;
+			    left: 32%;
+			    float: right;
+			    top: -2px;
+			    bottom: 4px;
+			    width: 25px;
+			    height: 25px;
+			    cursor: pointer;
+			    border: none;
+			    background: none;
+			}
+
+			.close:before,
+			.close:after {
+			    content: "";
+			    position: absolute;
+			    top: 11px;
+			    left: 5px;
+			    width: 15px;
+			    height: 2px;
+			    background: #002F63;
+			}
+
+			.close:before {
+			    webkit-transform: rotate(45deg);
+			    transform: rotate(45deg);
+			}
+
+			.close:after {
+			    webkit-transform: rotate(-45deg);
+			    transform: rotate(-45deg);
+			}
+			.close::onclick + .main1 {
+				display: none;
+			}
+			.day {
+				width: 18%;
+				min-height: 373px;
+			}
+			.numDay {
+				font-size: 10px;
+			}
+			.numDay h2 {
+				display: block;
+				float: left;
+				width: 47%;
+				padding: 0 0 0 10px;
+				margin: 0;
+			}
+			.numDay span {
+				display: block;
+				padding: 7px 0 7px 50%;
+				font-size: 8px;
+				width: 50%;
+			}
+			.schedule1{
+				display:table-cell;
+				vertical-align:middle;
+				width: 100%;
+				height: 332px;
+				font-size: 7px ;
+				color: #002F63;
+				padding-left: 5px;
+				cursor: pointer;
+			}
+			.schedule2{
+				border: 1px solid #A2A5A2;
+				font-size: 7px ;
+				color: #002F63;
+				padding: 0 0 5px 5px;
+				margin: 0 5px 10px 5px;
+				cursor: pointer;
+				min-height: 158px;
+			}
+			.schedule2 span {
+				display: block;
+				margin-top: 10px;
+			}
+			.schedule2 h2{
+				margin: 0;
+				color: #C62639;
+				font-weight: bold;
+			}
+			.opacity1 {
+				opacity: 0.5;
+			}
+			.boxS {
+				box-shadow: 0 0 5px;
+			}
+			.oo {}
+			.confirm {
+				display: block;
+				width: 22%;
+				height: 33px;
+				margin: auto;
+				border: none;
+				background: #002F63;
+				color: #ffffff;
+				font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+				font-weight: bold;
+			}
+.teg {
+	margin-left: 36.2%;
+	float: left;
+	margin-top: 15.6%;
+	font-size: 4.5em;
+	height: 50%;
+}
+.logIn {
+	width: 45%;
+    height: 18%;
+    margin-top: 15.6%;
+    margin-left: 1%;
+    float: left;
+}
+.logIn2 {
+	width: 19%;
+    height: 30%;
+    float: left;
+    margin-left: 1%;
+}
+.logo2 {
+	width: 100%;
+    margin: 0px;
+    font-size: 4.5em;
+    float: left;
+}
+.logoText2 {
+	    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1em;
+    float: left;
+}
+.ins {
+	width: 70%;
+    height: 30px;
+    margin: 20px 15%;
+    background: rgb(0, 47, 99);
+    border: none;
+    color: rgb(255, 255, 255);
+    float: left;
+    font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+	font-weight: bold;
+}
+.logDay, .logMon, .logYar {
+	display: block;
+    margin-right: 7%;
+    float: left;
+    height: 40px;
+    font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+	font-weight: bold;
+	color: #002F63;
+	text-transform:uppercase;
+	padding-left: 5%;
+}
+.logDay {
+	width: 20%
+}
+.logMon {
+	width: 36%;
+}
+.logYar {
+	width: 30%;
+	margin-right: 0;
+}
+.hTeg {
+	width: 3%;
+    margin: 3.7% 0 35% 23%;
+    float: left;
+    font-size: 4.5em;
+}
+.logo1{
+	width: 70%;
+    margin: 0px;
+    margin-top: 3.7%;
+    font-size: 4.5em;
+    float: left;
+}
+.logoText1{
+	text-transform: uppercase;
+    width: 19%;
+    margin-bottom: 5%;
+    font-size: 0.6em;
+    float: left;
+}
+.foto {
+	width: 10%;
+    margin-bottom: 60px;
+    font-size: 1.3em;
+    float: left;
+    margin-top: 5%;
+    margin-right: 60%;
+}
+.len{
+	position: absolute;
+	position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 10%;
+    height: 10%;
+   }
+.aRu {
+	width: 25%;
+    font-size: 1em;
+    float: left;
+    padding-top: 1px;
+     font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+	font-weight: bold;
+}
+.pp {
+	display: block;
+	position: relative;
+	transform: 5px;
+    float: left;
+    width: 10%;
+    font-size: 1em;
+    padding-top: 18p
+}
+.aEn {
+	    width: 40%;
+    font-size: 1em;
+    float: left;
+    padding-top: 1px;
+     font-family: 'Bud Bold Cyr','SlimSansSerif-Bold',SlimSansSerif,Sans-serif;
+	font-weight: bold;
+}
+.Tg1 {
+	display: none;
+}
+.usData01 {
+	width: 50%;
+}
+.consentButt01 {
+	width: 49%;
+}
+.usData01 .consent {
+		width: 4%;
+	}
+					@media screen and (max-width: 1050px) {
+.BG {
+	height: -webkit-fill-available;
+	background-image: url(BUDboat1.jpg);
+	background-position: center center;
+	background-clip: border-box;
+	background-size: 130% 100%;
+}
+	.usData1 {
+				width: 25%;
+				margin: 4.7% 0% 5% 0;
+				right: 25%;
+	}
+	.usData2 {
+		top: -135px;
+		right: 27%;
+	}
+	.usData_2 {
+		margin-right: 3%;
+	}
+	.usData_1 {
+		margin-bottom: 1%;
+	}
+	.teg {
+		margin-left: 32.1%;
+		margin-top: 22%;
+	}
+	.logIn {
+		margin-top: 22%;
+	}
+	.logIn2 {
+		width: 24.5%;
+	}
+	.logoText2 {
+		font-size: 0.8em;
+	}
+	.description {
+		margin: 0 0 0 5px;
+		font-size: 0.5em;
+	}
+	.description2 {
+		padding: 0;
+	}
+	.hTeg {
+		margin-left: 20%;
+		margin-bottom: 55%;
+	}
+	.foto {
+		margin: 9% 60% 8% 0;
+		font-size: 1.1em;
+	}
+	.usData01 .consent {
+		width: 5%;
+	}
+	.usAxx {
+		font-size: 6px;
+	}
+	.iul {
+		width: 18%;
+	}
+	.numDay span {
+		font-size: 6px;
+		padding-top: 4px;
+	} 
+	.numDay h2 {
+		font-size: 1.1em;
+	}
+	.schedule2 h2 {
+		font-size: 9px;
+	}
+	.Tg2 {
+		font-size: 0.85em;
+		padding: 0;
+	}
+	.logDay, .logMon, .logYar {
+		padding-left: 2%;
+	}
+
+}
+						@media screen and (max-width: 900px){
+	.BG {
+		background-size: 100% 100%;
+	}
+	.blur {
+	height: -webkit-fill-available;
+	background-image: url(BUDboat1.jpg);
+	background-position: center center;
+	background-clip: border-box;
+	background-size: 100% 100%;
+	opacity: 0.9;
+	}
+	.usAxx {
+		font-size: 5px;
+	}
+	.main1 {
+		margin: 1% 10% 0 15%;
+		width: 70%;
+		height: 360px;
+	}
+	.day {
+		min-height: 250px;
+	}
+	.schedule2 span {
+		font-size: 9px;
+		margin: 0;
+	}
+	.schedule1 {
+		min-height: 237px;
+	}
+	.schedule2 {
+		max-height: 280px;
+		min-height: 7px;
+	}
+	.usData2 {
+		right: 29.2%;
+		top: -115px;
+	}
+	.Tg2 {
+		font-size: 0.7em;
+	}
+	.description {
+		font-size: 0.4em;
+	}
+	#lot {
+		width: 22px;
+	}
+	.description2 {
+		width: 17%;
+	}
+	.close {
+		left: 27%;
+	}
+	.dataC {
+		height: 32px;
+	}
+	.hTeg {
+		margin-left: 18%;
+		margin-bottom: 33%;
+		margin-top: 3%;
+		font-size: 3em;
+	}
+	.logo1 {
+		height: 50px;
+		margin-top: 3%;
+		font-size: 3em;
+		margin-left: 1%;
+	}
+	.logoText1 {
+		font-size: 0.5em;
+		margin: 0 50% 3% 1%;
+	}
+	.teg {
+		margin-left: 33%;
+		height: 50%;
+		font-size: 3em;
+		margin-top: 10%;
+	}
+	.logIn {
+		margin-top: 10%;
+	}
+	.logo2 {
+		font-size: 3em;
+		margin: 0;
+	}
+	.logoText2 {
+		font-size: 0.5em;
+	}
+	.logIn2 {
+		width: 30%;
+		margin-top: 20px;
+	}
+	.logDay {
+		width: 15%;
+	}
+	.logMon {
+		width: 35%;
+	}
+	.logYar {
+		width: 25%;
+	}
+	.foto {
+		margin: 1% 10% 4.5% 0;
+	}
+	.data {
+		height: 23px;
+	}
+	.dataC {
+		height: 25px;
+		font-size: 0.6em;
+	}
+	.usData1 {
+		left: -25%;
+	}
+	.usData_1 {
+		margin-bottom: 1.3%;
+		height: 95px;
+	}
+	.usData_1_2 {
+		height: 105px;
+	}
+	.usData_2 {
+		margin-right: 5%;
+	}
+	.len {
+		width: 13%;
+	}
+}
+							@media screen and (max-width: 800px){
+	.foto, .usAxx {
+		display: none;
+		font-size: 6px;
+	}
+	.BG {
+		height: 1194px;
+		background-image: url(BUDboat2.jpg);
+	}
+	.hTeg {
+		margin: 30px 0 0 20%;
+		height: 100px;
+		width: 10%;
+		font-size: 6em;
+	}
+	.logo1 {
+		margin-left: 10px;
+		height: 100px;
+		width: 50%;
+		font-size: 6em;
+		margin-top: 30px;
+	}
+	.logoText1 {
+		width: 40%;
+		margin: 0% 0 5% 30%;
+		text-align: center;
+		font-size: 0.8em;
+	}
+	.len {
+		width: 11%;
+	}
+	.pp {
+		padding-top: 5px;
+	}
+	.aEn, .aRu {
+		width: 40%;
+		padding-top: 5px;
+	}
+	.blur {
+	height: 1194px;
+	background-image: url(BUDboat2.jpg);
+	background-position: center center;
+	background-clip: border-box;
+	background-size: 100% 100%;
+	opacity: 1;
+	}
+	.teg {
+		padding-left: 20%;
+		width: 10%;
+		height: 100px;
+		font-size: 6em;
+		padding-top: 30px;
+		margin: 0;
+	}
+	.logIn {
+		width: 100%;
+	    margin-top: 30px;
+	    float: none;
+	}
+	.logIn2 {
+		width: 100%;
+	}
+	.logo2 {
+		width: 60%;
+    	margin: 0px;
+		font-size: 6em;
+		padding-left: 10px;
+	}
+	.logoText2 {
+		display: block;
+	    width: 60%;
+    	text-align: center;
+    	font-size: 1em;
+    	padding: 0 10% 0 20%;
+    	height: 70px;
+	}
+	.logDay {
+		width: 10%;
+	    margin: 0 20px;
+	}
+	.logMon {
+		width: 40%;
+	    margin: 0 20px;
+	}
+	.logYar {
+		width: 30%;
+	    margin: 0 15px;
+	}
+	.ins {
+		width: 60%;
+		display: block;
+		margin: 20px 20%;
+	}
+	.data {
+		height: 40px;
+		font-size: 1.2em;
+	}
+	.usData {
+		float: none;
+		width: 60%;
+		margin: auto;
+		padding-top: 350px;
+	}
+	.usData_2 {
+		padding-top: 0px;
+		height: 0px;
+	}
+	.usData_1 {
+		padding-top: 110px;
+	}
+	.usData input, .usData2 input {
+		width: 100%;
+	}
+	.dataC {
+		width: 103%;
+		height: 40px;
+		font-size: 1em;
+	}
+	.usData input:last-child {
+		position: relative;
+		top: 50px;
+	}
+	.BG .usData_1 {
+		margin-top: 380px;
+		height: 10px;
+		width: 61.5%;
+		margin-left: 20%;
+	}
+	.usData1 {
+		float: none;
+		display: block;
+		margin:auto;
+		top: -75px;
+		left: 0;
+	}
+	.consent {
+		top: 0px;
+		display: block;
+	}
+	.description {
+		display: block;
+		position: relative;
+		top: 0px;
+		text-align: center;
+		width: 85%;
+	}
+	.description2 {
+		display: block;
+		margin: 0 0 10px 20px;
+		text-align: center;
+		width: 85%;
+	}
+	.consentButt {
+		float: none;
+		width: 103%;
+		position: relative;
+	}
+	.usAxx {
+		padding: 50px 100px 5px 70px;
+	}
+	.usData2 {
+		width: 60%;
+		top: -350px;
+		left: 20%;
+	}
+	.Tg1 {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.Tg2 {
+		display: none;
+	}
+	 .BG .usData_1_2 {
+		height: 210px;
+		width: 66%;
+		margin-left: 18%;
+	}
+	.usData2 .consent, .usData2 .description {
+		top: 10px;
+	}
+	.description {
+		font-size: 0.8em;
+	}
+	.usData01 {
+		width: 63%;
+	}
+	.usData01 .consentButt {
+		width: 103%;
+	}
+	.consentButt01 {
+		width: 103%;
+	}
+	.main1 {
+		width: 90%;
+		margin: 200px 0% 0 5%;
+		height: 1670px;
+		box-shadow: none;
+	}
+	.left, .right {
+		height: 1600px;
+	}
+	.iun {
+		margin-left: 35%;
+		margin-top: 20px;
+	}
+	.iul {
+		margin-top: 20px;
+	}
+	.close1 {
+		width: 87%;
+		padding-bottom: 15px;
+		text-align: center;
+	}
+	.close1 span {
+		float: none;
+	}
+	.close {
+		top: -50px;
+		left: 25px;
+	}
+	.day {
+		min-height: 100px;
+		width: 90%;
+	}
+	.numDay h2 {
+		font-size: 2em;
+	}
+	.numDay span {
+		font-size: 1em;
+		padding-top: 7px;
+	}
+	.schedule2 {
+		min-height: 147px;
+		height: 100px;
+	}
+	.schedule2 span {
+		font-size: 1em;
+		margin-top: 10px;
+	}
+	.schedule2 h2 {
+		font-size: 1.5em;
+	}
+	.schedule1 {
+		height: 100px;
+	}
+	.arrow_container {
+		display: none;
+	}
+	.confirm {
+		width: 50%;
+		margin: 20%;
+		display: block;
+		position: fixed;
+		bottom: -100px;
+	}
+}
+										@media screen and (max-width: 700px) {
+	.main1 {
+		margin-top: 140px;
+	}
+	.logo1, .logo2 {
+		padding-left: 0px;
+		margin-left: 0;
+		font-size: 5.5em;
+	}
+	.hTeg {
+		font-size: 5.5em;
+	}
+	.teg {
+		font-size: 5.5em;
+		margin: 0;
+	}
+	.logDay {
+		width: 20%;
+	    margin: 0 20px 0 6%;
+	}
+	.logMon {
+		width: 30%;
+	}
+	.logYar {
+		width: 25%;
+	}
+	.usData_2 {
+		padding-top: 110px;
+		height: 0px;
+	}
+	.usData_1 {
+		padding-top: 110px;
+	}
+	.dataC, .usData1 {
+		width: 103%;
+	}
+	.BG .usData_1 {
+		margin-top: 360px;
+	}
+	.usData1 {
+		width: 100%;
+		top: -75px;
+		left: 0;
+	}
+	.consent {
+		top: -100px;
+	}
+	.description {
+		top: -100px;
+	}
+	.consentButt {
+		top: -100px;
+	}
+	.usData2 {
+		top: -480px;
+		left: 20%;
+	}
+	.Tg2 {
+		display: none;
+	}
+	 .BG .usData_1_2 {
+		height: 240px;
+	}
+	.close1 {
+		text-align: center;
+		width: 86%;
+	}
+	.close1 span {
+		float: none;
+	}
+	.confirm {
+	}
+}
+									@media screen and (max-width: 600px) {
+	.main1 {
+		margin-top: 130px;
+	}
+	.logo1, .logo2 {
+		padding-left: 0px;
+		font-size: 5.5em;
+	}
+	.logoText1 {
+		width: 60%;
+		margin: 10px 20% 10px 20%;
+	}
+	.hTeg {
+		font-size: 5.5em;
+		margin-bottom: 5px;
+	}
+	.teg {
+		font-size: 5.5em;
+		margin: 0;
+	}
+	.logoText2 {
+		padding: 0;
+    	margin: 0 10% 0 20%;
+	}
+	.logMon {
+		width: 30%;
+	}
+	.logYar {
+		width: 25%;
+	}
+	.usData_2 {
+		padding-top: 110px;
+		height: 0px;
+	}
+	.usData_1 {
+		padding-top: 110px;
+	}
+	.dataC, .usData1 {
+		width: 103%;
+	}
+	.BG .usData_1 {
+		margin-top: 325px;
+	}
+	.usData1 {
+		width: 100%;
+	}
+	.consent {
+		top: -100px;
+	}
+	.description {
+		font-size: 0.6em;
+		top: -100px;
+	}
+	.consentButt {
+		top: -100px;
+	}
+	.usData2 {
+		top: -480px;
+	}
+	.Tg2 {
+		display: none;
+	}
+	 .BG .usData_1_2 {
+		height: 240px;
+	}
+	.close1 {
+		text-align: center;
+		width: 86%;
+	}
+	.close1 span {
+		float: none;
+	}
+	.confirm {
+	}
+}
+								@media screen and (max-width: 500px) {
+	.BG, .blur {
+		height: 1054px;
+	}
+	.logoText1 {
+		margin: 0px 20% 10px 20%;
+		font-size: 0.7em;
+	}
+	.hTeg {
+		margin-left: 10px;
+		font-size: 5.5em;
+	}
+	.teg {
+		font-size: 5.5em;
+		margin: 0;
+		padding-left: 10px;
+	}
+	.logoText2 {
+		display: block;
+	    width: 90%;
+    	text-align: center;
+    	font-size: 0.8em;
+    	margin: 0 20% 0 25%;
+    	height: 70px;
+	}
+	.logIn {
+		width: 70%;
+	    float: none;
+	}
+	.logIn2 {
+		width: 100%;
+	}
+	.logo2, .logo1 {
+		width: 60%;
+		font-size: 5.5em;
+		margin-left: 10px;
+	}
+	.logDay {
+		width: 10%;
+	    margin: 0 20px;
+	}
+	.logMon {
+		width: 30%;
+	    margin: 0 20px;
+	}
+	.logYar {
+		width: 25%;
+	    margin: 0 15px;
+	}
+	.ins {
+		width: 60%;
+		display: block;
+		margin: 20px 20%;
+	}
+	.usData {
+		float: none;
+		width: 60%;
+		margin: auto;
+		padding-top: 290px;
+	}
+	.usData_2 {
+		padding-top: 130px;
+		height: 0px;
+	}
+	.usData_1 {
+		padding-top: 110px;
+	}
+	.usData input, .usData2 input {
+		width: 100%;
+	}
+	.dataC, .usData1 {
+		width: 103%;
+	}
+	.usData input:last-child {
+		position: relative;
+		top: 50px;
+	}
+	.BG .usData_1 {
+		margin-top: 340px;
+		height: 10px;
+		width: 61.5%;
+		margin-left: 20%;
+	}
+	.usData1 {
+		float: none;
+		width: 100%;
+		display: block;
+		margin:auto;
+	}
+	.consent {
+		top: -100px;
+		display: block;
+	}
+	.description {
+		display: block;
+		position: relative;
+		top: -100px;
+		text-align: center;
+		width: 85%;
+	}
+	.description2 {
+		display: block;
+		margin: 0 0 10px 20px;
+		text-align: center;
+		width: 80%;
+	}
+	.consentButt {
+		float: none;
+		width: 103%;
+		position: relative;
+		top: -100px;
+	}
+	.usAxx {
+		padding: 50px 100px 5px 70px;
+	}
+	.usData2 {
+		width: 60%;
+		right: -20%;
+		top: -460px;
+	}
+	.Tg1 {
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.Tg2 {
+		display: none;
+	}
+	 .BG .usData_1_2 {
+		height: 210px;
+		width: 66%;
+		margin-left: 18%;
+	}
+	.usData2 .consent, .usData2 .description {
+		top: 10px;
+
+	}
+	.usData01 {
+		width: 63%;
+	}
+	.usData01 .consentButt {
+		width: 103%;
+	}
+	.consentButt01 {
+		width: 103%;
+	}
+	.main1 {
+		width: 90%;
+		height: 1670px;
+		box-shadow: none;
+	}
+	.iun {
+		margin-left: 28%;
+		margin-top: 20px;
+	}
+	.iul {
+		margin-top: 20px;
+	}
+	.close1 {
+		width: 80%;
+		padding-bottom: 15px;
+	}
+	.close {
+		top: -50px;
+		left: 25px;
+	}
+	.confirm {
+		bottom: -50px;
+	}
+	.len {
+		width: 17%;
+	}
+}
+									@media screen and (max-width: 400px) {
+	.main1 {
+		height: 1600px;
+		margin: 30% 0% 0 5%;
+	}
+	.left, .right {
+		height: 1500px;
+	}
+	.logo1, .logIn {
+		margin: 5% 0 0 0;
+		padding: 0 0;
+	}
+	.logo1 {
+		margin-left: 10px;
+	}
+	.teg, .hTeg {
+		margin: 5% 0 0 5%;
+		padding: 0 0;
+	}
+	.logoText1 {
+		width: 60%;
+		font-size: 0.6em;
+	}
+	.logoText2 {
+		font-size: 1em;
+		height: 80px;
+		padding-bottom: 0;
+	}
+	.BG .usData_1 {
+		margin-top: 340px;
+	}
+	.usData2 {
+		left: 20%;
+		top: -480px;
+	}
+	.usData1 {
+		top: -75px;
+		left: 0;
+	}
+	.len {
+		width: 19%;
+	}
+	.description2 {
+		width: 80%;
+	}
+}
+							@media screen and (max-width: 360px) {
+	.teg, .hTeg, .logo1, .logo2 {
+		font-size: 4.75em;
+		padding-left: 5px;
+		margin-left: 5px;
+		height: 100px;
+	}
+	.logoText2 {
+		height: 60px; 
+	}
+	.main1 {
+		height: 1600px;
+	}
+	.BG .usData_1 {
+		margin-top: 325px;
+	}
+}
+							@media screen and (max-width: 350px) {
+	
+}
+								@media screen and (max-width: 290px) {
+	.teg, .hTeg, .logo1, .logo2 {
+		font-size: 3em;
+		padding-left: 5px;
+		margin-left: 5px;
+		height: 60px;
+	}
+	.logDay, .logMon, .logYar {
+		margin: 0 13px;
+	}
+	.logoText1 {
+		font-size: 0.55em;
+	}
+	.logIn {
+		width: 95%;
+	}
+	.logoText2 {
+		font-size: 0.7em;
+		width: 80%;
+		height: 40px;
+		margin: 0;
+		padding: 20% 10% 0 10%;
+	}
+	.len {
+		width: 30%;
+	}
+	.main1 {
+		margin-top: 100px;
+	}
+	.close {
+		top: -70px;
+		left: 5px;
+	}
+	.iul {
+		margin: 0px 3% 0 33%;
+	}
+	.BG .usData_1 {
+		margin-top: 320px;
+	}
+	.BG .usData_1_2 {
+		height: 240px;
+	}
+	.usData2 {
+		top: -490px;
+	}
+	.description {
+		width: 70%;
+	}
+	.Tg1 {
+		font-size: 1em;
+	}
+	.len {
+		font-size: 0.8em
+	}
+}
